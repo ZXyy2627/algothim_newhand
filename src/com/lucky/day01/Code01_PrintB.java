@@ -25,10 +25,13 @@ public class Code01_PrintB {
         printB(a);
         printB(b);
         System.out.println("========================");
+        // 或 有1则1
         printB(a | b);
         System.out.println("========================");
+        // 都是1才是1
         printB(a & b);
         System.out.println("========================");
+        //相同为0 不同为1
         printB(a ^ b);
     }
 
